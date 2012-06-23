@@ -80,6 +80,13 @@
 			</includes>
 			<outputDirectory>/commons-daemon</outputDirectory>
 		</fileSet>
+		<fileSet>
+			<directory>${basedir}</directory>
+			<includes>
+				<include>*.md</include>
+			</includes>
+			<outputDirectory>/</outputDirectory>
+		</fileSet>
 	</fileSets>
 
 	<dependencySets>
