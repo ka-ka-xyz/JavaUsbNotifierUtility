@@ -32,7 +32,9 @@ Java6以上が導入されたWindowsXP以降のWindows環境。
 
 
 ## インストール方法
-   * 1- libusb-win32を使用してデバイスを認識する
+   * 0- target\application\UsbLamp-bin.zipを解凍します
+
+   * 1- libusb-win32を使用してデバイスを認識
      * 1-1. USBデバイスを接続します
      * 1-2. 下記zipファイルを解凍します。
 
