@@ -38,7 +38,7 @@ Java6以上が導入されたWindowsXP以降のWindows環境。
      * 1-1. USBデバイスを接続します
      * 1-2. 下記zipファイルを解凍します。
 
-  >libusb-win32-bin-1.2.6.0.zip
+  >libusb/libusb-win32-bin-1.2.6.0.zip
 
      * 1-3. libusb-win32をインストールします。インストール方法は下記サイトを参照してください。
 
@@ -46,9 +46,10 @@ Java6以上が導入されたWindowsXP以降のWindows環境。
 
 
   * 2 Windowsサービスへ登録する
-     * 2-1. 下記フォルダのInstallService\_x86 (32 bit JavaVM環境)または
-InstallService\_amd64.bat(64 bit JavaVM環境)を実行します。バッチ実行後、サービ
+     * 2-1. binフォルダのInstallService\_x86.bat (32 bit JavaVM環境用)または
+InstallService\_amd64.bat(64 bit JavaVM環境用)を実行します。バッチ実行後、サービ
 ス一覧に"UsbLamp"が登録されることを確認してください。
+
      * 2-1. サービス"UsbLamp"を起動します
 
 
